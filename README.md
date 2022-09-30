@@ -1,5 +1,6 @@
 ![Open Source Love](https://badges.frapsoft.com/os/v1/open-source.svg?v=103)
 [![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)
+[![CircleCI](https://img.shields.io/circleci/project/github/transferwise/icons/main.svg)](https://github.com/anhtester/restassured-testng-examples/actions/workflows/maven.yml)
 
 ## REST Assured Examples | Anh Tester
 
