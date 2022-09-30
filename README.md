@@ -20,5 +20,8 @@ This project is the outcome of my self-learning of the API Testing Automation Fr
 - I have covered, `GET`, `POST`, `PUT`, `PATCH` and `DELETE` requests.
 - Sample code to handle the `authentication` requests have also been added.
 
+### Run Test
+- Using command: `mvn clean test`
+
 ### Contact Me
 - Website: https://anhtester.com
