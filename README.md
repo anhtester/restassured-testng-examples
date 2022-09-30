@@ -1,2 +1,2 @@
 # api-restassured-example
-Learning project automation test API with REST Asured 2022 | Anh Tester
+Learning project automation test API with REST Assured 2022 | Anh Tester
