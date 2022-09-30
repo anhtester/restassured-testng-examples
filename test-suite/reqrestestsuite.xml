@@ -2,7 +2,7 @@
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
 <suite name="ReqRes Test Suite">
     <listeners>
-        <listener class-name="anhtester.com.utils.TestListener"/>
+        <listener class-name="anhtester.com.listeners.TestListener"/>
     </listeners>
 
     <test name="Authentication Tests">

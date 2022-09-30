@@ -19,6 +19,8 @@
         <org-json.verion>20220320</org-json.verion>
         <java-faker.version>1.0.2</java-faker.version>
         <log4j2.version>2.19.0</log4j2.version>
+        <extentreports.version>5.0.9</extentreports.version>
+
         <maven-compiler-plugin.version>3.10.1</maven-compiler-plugin.version>
         <maven-surefire-plugin.version>3.0.0-M7</maven-surefire-plugin.version>
         <java-release.version>11</java-release.version>
@@ -26,6 +28,12 @@
     </properties>
 
     <dependencies>
+        <!-- https://mvnrepository.com/artifact/com.aventstack/extentreports -->
+        <dependency>
+            <groupId>com.aventstack</groupId>
+            <artifactId>extentreports</artifactId>
+            <version>${extentreports.version}</version>
+        </dependency>
         <!-- https://mvnrepository.com/artifact/org.testng/testng -->
         <dependency>
             <groupId>org.testng</groupId>

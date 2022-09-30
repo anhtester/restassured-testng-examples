@@ -12,4 +12,6 @@ buildNumber.properties
 logs
 .png
 .jpg
+.idea
+reports
 
