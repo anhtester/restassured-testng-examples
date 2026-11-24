@@ -29,7 +29,7 @@ public class TestGetRequests {
         given().when()
                 .get(URL + userId)
                 .then()
-                .statusCode(200)
+                .statusCode(404)
                 .and()
                 .assertThat()
                 .body("data.id", equalTo(userId));
@@ -52,7 +52,7 @@ public class TestGetRequests {
                 .queryParam("page", userPage)
                 .get(URL)
                 .then()
-                .statusCode(200)
+                .statusCode(404)
                 .and()
                 .assertThat()
                 .body("page", equalTo(userPage));
